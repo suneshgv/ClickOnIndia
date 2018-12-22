@@ -44,3 +44,7 @@ H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\bin\System.Web.Mvc.xml
 H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\obj\Debug\ClickOnIndia.csprojResolveAssemblyReference.cache
 H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\obj\Debug\ClickOnIndia.dll
 H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\obj\Debug\ClickOnIndia.pdb
+H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\bin\EntityFramework.dll
+H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\bin\EntityFramework.SqlServer.dll
+H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\bin\EntityFramework.xml
+H:\Projects\Smrithi\vs proj\ClickOnIndia\ClickOnIndia\bin\EntityFramework.SqlServer.xml

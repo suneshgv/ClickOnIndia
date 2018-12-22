@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76cd312dbe89441c906f71570820fda1" Name="Diagram1">
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Bus" Width="1.5" PointX="1.5" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_BusBoking" Width="1.5" PointX="6" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_BusLoc" Width="1.5" PointX="1.5" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_BusRoute" Width="1.5" PointX="3.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Compartment" Width="1.5" PointX="1.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Passenger" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Role" Width="1.5" PointX="1.5" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Route" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_SeatClass" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Train" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_TrainBooking" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_TrainRoute" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_Transaction" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db_ClickOnIndiaModel.tbl_UserDetail" Width="1.5" PointX="0.75" PointY="21.625" IsExpanded="true" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusRoute_tbl_Bus1" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusBoking_tbl_BusRoute" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusBoking_tbl_BusRoute1" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusBoking_tbl_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusBoking_tbl_UserDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Pass_tbl_BusBoking" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_BusRoute_tbl_Bus" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_SeatClass_tbl_Compartment" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Pass_tbl_Booking1" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_UserDetail_tbl_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_TrainRoute_tbl_Route" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_SeatClass" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_train" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_TrainRoute_tbl_train" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_TrainRoute" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_TrainRoute1" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="Db_ClickOnIndiaModel.FK_tbl_Booking_tbl_UserDetail" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
